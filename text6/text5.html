@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+</head>
+<body>
+<form>
+	<table border="1" cellspacing="0" width="600" height="300">
+		<tr><td width="79">用户名：</td><td width="309"><input type="text"></td></tr>
+		<tr><td width="79">密码：</td><td width="309"><input type="password"></td></tr>
+		<tr><td width="79">确认密码：</td><td width="309"><input type="password"></td></tr>
+		<tr><td width="79">性别：</td><td width="309"><input type="radio" name="sex">男<input type="radio" name="sex">女</td></tr>
+		<tr><td width="79">生日：</td><td width="309">
+		<select name="birth">
+			<option value="first">公历</option>
+			<option value="two">阴历</option>
+		</select>
+		<select>
+			<option value="first">年</option>
+		</select>
+		<select>
+			<option value="first">月</option>
+		</select>
+		<select>
+			<option value="first">日</option>
+		</select>
+		</td></tr>
+		<tr><td width="79">所在地：</td><td width="309">
+			<select>
+				<option value="first">中国</option>
+				<option value="two">美国</option>
+				<option value="three">英国</option>
+			</select>
+			<select>
+				<option value="first">河北</option>
+				<option value="two">湖南</option>
+				<option value="three">云南</option>
+			</select>
+			<select>
+				<option value="first">石家庄</option>
+				<option value="two">长沙</option>
+				<option value="three">昆明</option>
+			</select>
+		</td></tr>
+		<tr><td width="79">验证码</td><td width="309"><input type="text"><img src="images/yanzhengma.jpg"></td></tr>
+		<tr><td width="79">证件类型：</td><td width="309"><select><option value="first">身份证</option><option value="two">护照</option></select></td></tr>
+		<tr><td width="79">证件号：</td><td width="309"><input type="text"></td></tr>
+		<tr><td width="79">爱好：</td><td width="309"><input type="checkbox" name="like">音乐<input type="checkbox" name="like">读书<input type="checkbox" name="like">跳舞<input type="checkbox" name="like">下棋<input type="checkbox" name="like">其他</td></tr>
+		<tr><td width="79">说明：</td><td width="309"><textarea cols="30" rows="4"></textarea></td></tr>
+		<tr><td>上传头像：</td><td><input type="file" name="tupian"></td></tr>
+		<tr align="center"><td colspan="2"><input type="submit" name="ti"><input type="reset"><input type="button" value="按钮"></td></tr>
+	</table>
+</form>
+</body>
+</html>
