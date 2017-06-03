@@ -1,0 +1,12 @@
+.imgage{width:200px;
+	   height:auto;
+	   border:1px solid #ccc;
+	   float:left;
+	   margin:3px;}
+.imgage a img{width:200px;
+		     height:auto;
+		     border:1px solid #bebebe;
+		     opacity:0.5;}
+.imgage img:hover{opacity:1;}
+div.imgage a:hover img{border:1px solid #333;}
+.desc{text-align:center;}
