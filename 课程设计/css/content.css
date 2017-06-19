@@ -1,0 +1,149 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.header{
+	height:205px;
+	background-image:url(../images/banner1.jpg);
+	background-size:100% 205px;
+}
+.header img{
+	width:80px;
+	height:80px;
+	margin-top:38px;
+	margin-left:110px;
+}
+.menu{
+	width:100%;
+	height:40px;
+	background-color:#09c;
+	margin-top:47px;
+}
+.menu ul{
+	list-style:none;
+	margin-left:110px;
+}
+.menu ul li{
+	float:left;
+	font-size:14px;
+	margin-right:30px;
+	margin-top:10px;
+}
+.menu li a{
+	color:#fff;
+	text-decoration:none;
+}
+.menu li a:hover{
+	color:#ff0;
+	font-weight:bold;
+}
+.right{
+	float:right;
+	margin-right:200px;
+}
+.but{
+	background-color:#fff;
+	width:150px;
+	height:18px;
+	margin-top:10px;
+}
+.sousuo{
+	background-color:#63c;
+	width:44px;
+	height:22px;
+	color:#fff;
+	border:1px solid #f8f5ee;
+}
+.lefter{
+	margin-left:160px;
+	margin-right:200px;
+}
+.lefter .top{
+	margin-top:15px;
+}
+.top p{
+	color:#222;
+}
+.all{
+	width:900px;
+	height:auto;
+	border:1px solid #ccc;
+	margin-left:30px;
+	margin-top:15px;
+}
+.title{
+	margin-top:15px;
+	text-align:center;
+}
+.title .line{
+	width:780px;
+	margin:10px 60px 10px 60px;
+}
+.title p{
+	font:12px "宋体";
+	color:#ccc;
+}
+.text{
+	margin-left:60px;
+	width:780px;
+	margin-top:15px;
+}
+.text p{
+	font:16px "宋体";
+	line-height:30px;
+	text-indent:2em;
+	color:#222;
+}
+.text .pic4{
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align:center;
+}
+.line1{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.bo{
+	margin-bottom:15px;
+}
+.bo a{
+	
+	text-decoration:none;
+	color:#222;
+}
+.bo a:hover{
+	text-decoration:underline;
+	color:#09c;
+}
+.footer{
+	clear:both;
+	background-image:url(../images/bg1.jpg);
+	width:100%;
+	height:150px;
+	
+}
+#ta ul li {
+	float:left;
+	list-style:none;
+	margin-left:20px;
+}
+#ta ul li a{
+	text-decoration:none;
+	color:#222;
+	font-weight:bold;
+	font-size:13px;
+	margin-top:50px;
+	margin-bottom:1px;
+}
+#ta{
+	margin:auto;
+}
+#liebiao{
+	border-bottom:2px solid #ccc;
+	width:500px;
+	height:50px;
+	line-height:50px;
+}
+.last{
+	margin-top:10px;
+}
